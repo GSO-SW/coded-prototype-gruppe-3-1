@@ -1,4 +1,7 @@
-/* Navigation */
+table{
+    width: 100%;
+}
+
 nav {
     float: left; /* Fügt einen Float zur Linken hinzu */
     width: 10%; /* Breite des Navigationsbereichs anpassen */
@@ -51,7 +54,7 @@ footer {
 }
 
 .accordion:after {
-    content: '\02795';
+    content: "\25BC";
     font-size: 13px;
     color: #777;
     float: right;
@@ -59,7 +62,8 @@ footer {
   }
   
   .active:after {
-    content: "\2796";
+    content: '\25B2';
+
   }
 
 .accordion {
@@ -85,3 +89,36 @@ footer {
     overflow: hidden;
   }
 
+
+  .flex{
+    display: flex;
+  }
+  .basis-15{
+    flex-basis: 15%;
+  }
+  .grow{
+    flex-grow: 1;
+  }
+  .flex-row{
+    flex-direction: row;
+  }
+.w-full{
+    width: 100%;
+}
+.h-full{
+    height: 100%;
+}
+
+input, textarea{
+    box-sizing: border-box;
+}
+
+input
+{
+    text-align: center;
+}
+
+.text-center
+{
+    text-align: center;
+}
