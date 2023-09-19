@@ -1,0 +1,56 @@
+/* Navigation */
+nav {
+    float: left; /* Fügt einen Float zur Linken hinzu */
+    width: 10%; /* Breite des Navigationsbereichs anpassen */
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+}
+
+/* Hauptinhalt verschieben, um Platz für die Navigation zu schaffen */
+article {
+    margin-left: 15%; /* Hier die Breite der Navigation + ein zusätzlicher Abstand */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Medienanfragen für responsive Gestaltung */
+@media (max-width: 768px) {
+    nav {
+        width: 100%; /* Bei kleineren Bildschirmen die volle Breite verwenden */
+        float: none; /* Float aufheben */
+        margin-bottom: 10px; /* Abstand unter der Navigation hinzufügen */
+    }
+
+    article {
+        margin-left: 0; /* Bei kleineren Bildschirmen den Abstand aufheben */
+    }
+}
+
+footer {
+    background-color: #888888;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
