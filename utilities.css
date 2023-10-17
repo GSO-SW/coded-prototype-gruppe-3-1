@@ -1,0 +1,72 @@
+.flex{
+    display: flex;
+}
+
+.basis-15{
+    flex-basis: 15%;
+}
+
+.grow{
+    flex-grow: 1;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.w-full{
+    width: 100%;
+}
+
+.h-full{
+    height: 100%;
+}
+
+.justifiy-center{
+  justify-content: center;
+}
+
+.item-center{
+  align-items: center;
+}
+
+input, textarea{
+    box-sizing: border-box;
+}
+
+input
+{
+    text-align: center;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.grid-layout{
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'main main main main main main'
+      'main main main main main main'
+      'main main main main main main'
+      'main main main main main main'
+      'main main main main main main'
+      'main main main main main main'
+      'main main main main main main'
+      'main main main main main main'
+      'main main main main main main'
+      'main main main main main main'
+      'main main main main main main'
+      'main main main main main main'
+      'main main main main main main'
+      'main main main main main main'
+      'main main main main main main'
+      'footer footer footer footer footer footer';
+  }
+  
+  header { grid-area: header; }
+  .menu { grid-area: menu; }
+  .main { grid-area: main; }
+  footer { grid-area: footer; }
