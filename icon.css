@@ -1,0 +1,20 @@
+.logout-icon{
+    content: url('./assets/logout.png');
+    height: 36px;
+    width: 36px;
+}
+.home-icon{
+    content: url('./assets/home.png');
+    height: 36px;
+    width: 36px;
+}
+.pencil-icon{
+    content: url('./assets/pencil.png');
+    height: 36px;
+    width: 36px;
+}
+.user-icon{
+    content: url('./assets/user.png');
+    height: 36px;
+    width: 36px;
+}
