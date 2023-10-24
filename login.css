@@ -9,4 +9,12 @@
         place-items: center;
     }
 }
-
+@media screen and (min-width: 601px) {
+    .login{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        justify-content: center;
+        place-items: center;
+    }
+}
