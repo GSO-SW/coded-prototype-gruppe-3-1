@@ -14,6 +14,17 @@
     flex-direction: row;
 }
 
+.flex-col{
+    flex-direction: column;
+}
+
+.h-60{
+    height: 60%;
+}
+.h-20{
+    height: 20%;
+}
+
 .w-full{
     width: 100%;
 }

@@ -17,6 +17,11 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
+function loadMainPage()
+{
+  window.location.href = "main_page.html"
+}
+
 function openNav() {
   if(window.innerWidth >= 768)
   {

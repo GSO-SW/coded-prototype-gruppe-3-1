@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta name="viewport" content="width=device-width" initial-scale=1.0>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="login.css">
+		<link rel="stylesheet" href="utilities.css">
+        <link rel="stylesheet" href="CSS.css">
+		<title>Berichtsheft-Tool Login</title>
+	</head>
+	<body>
+        <div class="h-full w-full flex flex-col">
+            <header class="w-full h-20">
+                <div class="flex grow flex-col justifiy-center item-center">
+                    <h2>Login</h2>
+                    <subtitle>Bitte melden Sie sich mit ihren Logindaten an</subtitle>
+				</div>
+            </header>
+            <article class="login h-60 text-center">
+                <input aria-label="Benutzername">
+                <input aria-label="Passwort">
+                <button onclick="loadMainPage()">Login</button>
+            </article>
+            <footer class="h-20">
+                Impressum
+            </footer>
+        </div>
+	</body>
+	<script src="JS.js"></script>
+</html>
