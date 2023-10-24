@@ -76,7 +76,7 @@ footer {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #f7e9e9;
+  background-color: #d4d3d3;
   border: grey 0.5px solid;
   border-radius: 5px;
   overflow-x: hidden;
@@ -95,6 +95,7 @@ footer {
 
 .sidenav .hover:hover {
   background-color: #0b5ed7;
+  color: #ffffff;
 }
 
 .sidenav .closebtn {
