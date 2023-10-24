@@ -19,6 +19,10 @@
     flex-direction: column;
 }
 
+.gap-10{
+    gap: 10px;
+}
+
 .h-60{
     height: 60%;
 }

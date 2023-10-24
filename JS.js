@@ -22,6 +22,11 @@ function loadMainPage()
   window.location.href = "main_page.html"
 }
 
+function loadLoginPage()
+{
+  window.open("./login_page.html",'_top')
+}
+
 function openNav() {
   if(window.innerWidth >= 768)
   {
