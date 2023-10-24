@@ -28,7 +28,7 @@ function loadLoginPage()
 }
 
 function openNav() {
-  if(window.innerWidth >= 768)
+  if(window.innerWidth >= 500)
   {
     document.getElementById("mySidenav").style.width = "300px";
   }
