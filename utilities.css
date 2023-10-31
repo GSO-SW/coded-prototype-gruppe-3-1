@@ -58,6 +58,9 @@ input
     text-align: center;
 }
 
+input.text-left{
+    text-align: left;
+}
 .text-center
 {
     text-align: center;

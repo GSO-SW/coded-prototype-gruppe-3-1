@@ -18,3 +18,21 @@
         place-items: center;
     }
 }
+
+  
+
+.grid-layout-login{
+    display: grid;
+    grid-template-areas:
+        'header header header'
+        'main main main'
+        'footer footer footer';
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-columns: 150px 1fr;
+    }
+
+  
+  header { grid-area: header; }
+  .menu { grid-area: menu; }
+  .main { grid-area: main; }
+  footer { grid-area: footer; }

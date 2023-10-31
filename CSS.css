@@ -29,7 +29,7 @@ nav ul li a {
 
 footer {
     background-color: #888888;
-    padding: 20px;
+    padding: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -104,6 +104,10 @@ footer {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+}
+
+.float-right{
+  float: right;
 }
 
 @media screen and (max-height: 450px) {
