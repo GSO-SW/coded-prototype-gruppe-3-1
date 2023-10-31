@@ -18,3 +18,13 @@
     height: 36px;
     width: 36px;
 }
+.save-icon-24px{
+    content: url('./assets/save.png');
+    height: 24px;
+    width: 24px;
+}
+.pencil-icon-24px{
+    content: url('./assets/pencil.png');
+    height: 24px;
+    width: 24px;
+}

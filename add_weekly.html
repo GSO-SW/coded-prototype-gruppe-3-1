@@ -5,43 +5,85 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="CSS.css">
 		<link rel="stylesheet" href="utilities.css">
-
+		<link rel="stylesheet" href="icon.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 		<title>Berichtsheft-Tool</title>
 	</head>
 	<body>
 		<article>
 			<button class="accordion">Montag</button>
 			<div class="panel">
-				<table>
+				<table id="table-monday">
 					<tr class="flex flex-row w-full">
-						<th class="grow">Ausgeführte Tätigkeit</th>
+						<th class="grow">Tätigkeiten</th>
 						<th class="basis-15">Zeit</th>
 						<th class="basis-15">Abt.</th>
+						<th class="basis-10"></th>
 					</tr>
 					<tr class="flex flex-row w-full">
-						<td class="grow"><textarea class="w-full h-full" oninput="this.style.height = '';this.style.height = (this.scrollHeight + 5) + 'px'"></textarea></td>
+						<td class="grow"><textarea class="w-full h-full" oninput="this.style.height = '';this.style.height = (this.scrollHeight + 5) + 'px'" maxlength="300"></textarea></td>
 						<td class="basis-15"><input class="w-full h-full" type="number"></td>
 						<td class="basis-15"><input class="w-full h-full"></td>
+						<td class="basis-10 flex justifiy-center item-center max-w-55px"><button class="btn btn-outline-secondary line-h-1" ><i class="save-icon-24px"></i></td>
+					</tr>
+					<tr class="flex flex-row w-full">
+						<td class="grow"><textarea class="w-full h-full" oninput="this.style.height = '';this.style.height = (this.scrollHeight + 5) + 'px'" maxlength="300"></textarea></td>
+						<td class="basis-15"><input class="w-full h-full" type="number"></td>
+						<td class="basis-15"><input class="w-full h-full"></td>
+						<td class="basis-10 flex justifiy-center item-center max-w-55px"><button class="btn btn-outline-secondary line-h-1" ><i class="save-icon-24px"></i></td>
+					</tr>
+					<tr class="flex flex-row w-full">
+						<td class="grow"><textarea class="w-full h-full" oninput="this.style.height = '';this.style.height = (this.scrollHeight + 5) + 'px'" maxlength="300"></textarea></td>
+						<td class="basis-15"><input class="w-full h-full" type="number"></td>
+						<td class="basis-15"><input class="w-full h-full"></td>
+						<td class="basis-10 flex justifiy-center item-center max-w-55px"><button class="btn btn-outline-secondary line-h-1" ><i class="save-icon-24px"></i></td>
 					</tr>
 					<tr class="flex flex-row w-full">
 						<td class="grow">Gesamtstunden</td>
 						<td class="basis-15 text-center">5</td>
-						<td class="basis-15 text-center">Stunden</td>
+						<td class="basis-10 text-center">Stunden</td>
 					</tr>
 				</table>
 			</div>
 
 			<button class="accordion">Dienstag</button>
 			<div class="panel">
-				<p>
-					Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
-					sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est 
-					Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
-					aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem 
-					ipsum dolor sit amet.
-				</p>
+				<table id="table-monday">
+					<tr class="flex flex-row w-full">
+						<th class="grow">Tätigkeiten</th>
+						<th class="basis-15">Zeit</th>
+						<th class="basis-15">Abt.</th>
+						<th class="basis-10"></th>
+					</tr>
+					<tr class="flex flex-row w-full">
+						<td class="grow"><textarea class="w-full h-full" oninput="this.style.height = '';this.style.height = (this.scrollHeight + 5) + 'px'" maxlength="300"></textarea></td>
+						<td class="basis-15"><input class="w-full h-full" type="number"></td>
+						<td class="basis-15"><input class="w-full h-full"></td>
+						<td class="basis-10 flex justifiy-center item-center max-w-55px"><button class="btn btn-outline-secondary line-h-1" ><i class="save-icon-24px"></i></td>
+					</tr>
+					<tr class="flex flex-row w-full">
+						<td class="grow"><textarea class="w-full h-full" oninput="this.style.height = '';this.style.height = (this.scrollHeight + 5) + 'px'" maxlength="300"></textarea></td>
+						<td class="basis-15"><input class="w-full h-full" type="number"></td>
+						<td class="basis-15"><input class="w-full h-full"></td>
+						<td class="basis-10 flex justifiy-center item-center max-w-55px"><button class="btn btn-outline-secondary line-h-1" ><i class="save-icon-24px"></i></td>
+					</tr>
+					<tr class="flex flex-row w-full">
+						<td class="grow"><textarea class="w-full h-full" oninput="this.style.height = '';this.style.height = (this.scrollHeight + 5) + 'px'" maxlength="300"></textarea></td>
+						<td class="basis-15"><input class="w-full h-full" type="number"></td>
+						<td class="basis-15"><input class="w-full h-full"></td>
+						<td class="basis-10 flex justifiy-center item-center max-w-55px"><button class="btn btn-outline-secondary line-h-1" ><i class="save-icon-24px"></i></td>
+					</tr>
+					<tr class="flex flex-row w-full">
+						<td class="grow">Gesamtstunden</td>
+						<td class="basis-15 text-center">5</td>
+						<td class="basis-10 text-center">Stunden</td>
+					</tr>
+				</table>
 			</div>
 		</article>
 	</body>
 	<script src="JS.js"></script>
+	<script src="add_weekly.js"></script>
+
 </html>
