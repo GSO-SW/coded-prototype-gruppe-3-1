@@ -12,11 +12,15 @@
 .grow{
     flex-grow: 1;
 }
-
+.h-full-c{
+    height: calc(100% - 10px);
+}
 .flex-row{
     flex-direction: row;
 }
-
+.word-break{
+    word-break: break-word;
+}
 .flex-col{
     flex-direction: column;
 }
